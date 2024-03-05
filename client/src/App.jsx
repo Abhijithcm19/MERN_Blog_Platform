@@ -6,6 +6,7 @@ import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
 import SignUp from "./pages/SignUp";
 import Header from "./componets/Header";
+import FooterCom from "./componets/Footer";
 const App = () => {
   return (
     <BrowserRouter>
@@ -18,7 +19,7 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
-   
+   <FooterCom/>
     </BrowserRouter>
   );
 };
